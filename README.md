@@ -1,4 +1,5 @@
-# Flipbook-Electron
+ 
+# Flipbook-Electron [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/keanuplayz/Flipbook-Electron)
 An Electron port of the CCDirectLink tool "Flipbook"
 
 ## Installing
