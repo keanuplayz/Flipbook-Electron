@@ -57,6 +57,18 @@
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.5.tgz#b14efa8852b7768d898906613c23f688713e02cd"
   integrity sha512-Q1y515GcOdTHgagaVFhHnIFQ38ygs/kmxdNpvpou+raI9UO3YZcHDngBSYKQklcKlvA7iuQlmIKbzvmxcOE9CQ==
 
+"@types/fs-extra@^8.0.1":
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-8.0.1.tgz#a2378d6e7e8afea1564e44aafa2e207dadf77686"
+  integrity sha512-J00cVDALmi/hJOYsunyT52Hva5TnJeKP5yd1r+mH/ZU0mbYZflR0Z5kw5kITtKTRYMhm1JMClOFYdHnQszEvqw==
+  dependencies:
+    "@types/node" "*"
+
+"@types/node@*":
+  version "13.7.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.0.tgz#b417deda18cf8400f278733499ad5547ed1abec4"
+  integrity sha512-GnZbirvmqZUzMgkFn70c74OQpTTUcCzlhQliTzYjQMqg+hVKcDnxdL19Ne3UdYzdMA/+W3eb646FWn/ZaT1NfQ==
+
 "@types/node@^12.0.12":
   version "12.12.24"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.24.tgz#d4606afd8cf6c609036b854360367d1b2c78931f"
@@ -131,6 +143,11 @@ app-builder-bin@3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/app-builder-bin/-/app-builder-bin-3.5.1.tgz#68dcbe4eb8b7d80be22945ba7f7b72c812ea1eb4"
   integrity sha512-71FeTdKU+L4/afnKYeCS9S9g6wa2AyiMLxGtYms6sPnnzUEd81wBhfvRb8/O/f4tLrU1MDbkjA8aGGiK9/ZT6A==
+
+app-builder-bin@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/app-builder-bin/-/app-builder-bin-3.5.2.tgz#fba56e6e9ef76fcd37816738c5f9a0b3992d7183"
+  integrity sha512-tYeNHp8js5c5MT+mzGEMsZhDBXRVAkCgrvz80rzNLlCojG6YrNLRSzfCWZiKJCv5W2faHjxTkKQoRAMY3RWaow==
 
 app-builder-lib@22.2.0:
   version "22.2.0"
@@ -372,14 +389,15 @@ builder-util@22.2.0, builder-util@~22.2.0:
     stat-mode "^1.0.0"
     temp-file "^3.3.6"
 
-builder-util@~22.3.0:
-  version "22.3.0"
-  resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-22.3.0.tgz#b12529fb019d8e9f2813e89f92a36514867ec16a"
-  integrity sha512-kLAeX4q4LEAHsg9P7xXdGYxp9kQfHpVrmj9GxXojA7muqfILJG1SMExezniPT85oI9uxRzT7BevEucAVS/0ZOw==
+builder-util@~22.3.3:
+  version "22.3.3"
+  resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-22.3.3.tgz#62f0527ceaa1a2e4a60596a9b38ad1ffe3e20ae6"
+  integrity sha512-VzQALenLDdeaz7hXaQgS9N0Xz3zlgkK64Dp2Vn61XTbhI0MgVneTeEKKDFwdBC/l7v0cHsOPeao/xeWmyznC2g==
   dependencies:
     "7zip-bin" "~5.0.3"
     "@types/debug" "^4.1.5"
-    app-builder-bin "3.5.1"
+    "@types/fs-extra" "^8.0.1"
+    app-builder-bin "3.5.2"
     bluebird-lst "^1.0.9"
     builder-util-runtime "8.6.0"
     chalk "^3.0.0"
@@ -658,14 +676,14 @@ ejs@^3.0.1:
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.0.1.tgz#30c8f6ee9948502cc32e85c37a3f8b39b5a614a5"
   integrity sha512-cuIMtJwxvzumSAkqaaoGY/L6Fc/t6YvoP9/VIaK0V/CyqKLEQ8sqODmYfy/cjXEdZ9+OOL8TecbJu+1RsofGDw==
 
-electron-builder-squirrel-windows@^22.3.0:
-  version "22.3.0"
-  resolved "https://registry.yarnpkg.com/electron-builder-squirrel-windows/-/electron-builder-squirrel-windows-22.3.0.tgz#3aef30cb9fcdcfd4e4658b4a26fe0f648b13a715"
-  integrity sha512-CppEAIbTLhv/CerdwMlNX+oNDThXxqexNr6+vX9J/E2D51octRtArvH4/v/nacLjMxznuolX4JH68+zaaGpw2A==
+electron-builder-squirrel-windows@^22.3.3:
+  version "22.3.3"
+  resolved "https://registry.yarnpkg.com/electron-builder-squirrel-windows/-/electron-builder-squirrel-windows-22.3.3.tgz#0a417af35c83b067096bd3217b6b7bd75c6c48a9"
+  integrity sha512-2GKEriraCWeWt+RuQZeA5Q2gKpgM6HHeV/uwbeJ9gkxi0Ne/nYTsImfjW6j7lQPdYNJ1oZQjnwdx2o2ng4k+kQ==
   dependencies:
     archiver "^3.1.1"
     bluebird-lst "^1.0.9"
-    builder-util "~22.3.0"
+    builder-util "~22.3.3"
     fs-extra "^8.1.0"
     sanitize-filename "^1.6.3"
   optionalDependencies:
