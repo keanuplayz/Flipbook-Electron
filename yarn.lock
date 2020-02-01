@@ -65,9 +65,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "13.5.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.5.0.tgz#4e498dbf355795a611a87ae5ef811a8660d42662"
-  integrity sha512-Onhn+z72D2O2Pb2ql2xukJ55rglumsVo1H6Fmyi8mlU9SvKdBk/pUSUAiBY/d9bAOF7VVWajX3sths/+g6ZiAQ==
+  version "13.7.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.0.tgz#b417deda18cf8400f278733499ad5547ed1abec4"
+  integrity sha512-GnZbirvmqZUzMgkFn70c74OQpTTUcCzlhQliTzYjQMqg+hVKcDnxdL19Ne3UdYzdMA/+W3eb646FWn/ZaT1NfQ==
 
 "@types/node@^12.0.12":
   version "12.12.24"
@@ -121,6 +121,11 @@ ansi-styles@^4.1.0:
   dependencies:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
+
+app-builder-bin@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/app-builder-bin/-/app-builder-bin-3.5.2.tgz#fba56e6e9ef76fcd37816738c5f9a0b3992d7183"
+  integrity sha512-tYeNHp8js5c5MT+mzGEMsZhDBXRVAkCgrvz80rzNLlCojG6YrNLRSzfCWZiKJCv5W2faHjxTkKQoRAMY3RWaow==
 
 app-builder-bin@3.5.2:
   version "3.5.2"
@@ -332,7 +337,7 @@ builder-util@22.3.2:
     stat-mode "^1.0.0"
     temp-file "^3.3.6"
 
-builder-util@22.3.3, builder-util@~22.3.0, builder-util@~22.3.2, builder-util@~22.3.3:
+builder-util@~22.3.3:
   version "22.3.3"
   resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-22.3.3.tgz#62f0527ceaa1a2e4a60596a9b38ad1ffe3e20ae6"
   integrity sha512-VzQALenLDdeaz7hXaQgS9N0Xz3zlgkK64Dp2Vn61XTbhI0MgVneTeEKKDFwdBC/l7v0cHsOPeao/xeWmyznC2g==
@@ -584,14 +589,14 @@ ejs@^3.0.1:
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.0.1.tgz#30c8f6ee9948502cc32e85c37a3f8b39b5a614a5"
   integrity sha512-cuIMtJwxvzumSAkqaaoGY/L6Fc/t6YvoP9/VIaK0V/CyqKLEQ8sqODmYfy/cjXEdZ9+OOL8TecbJu+1RsofGDw==
 
-electron-builder-squirrel-windows@^22.3.0:
-  version "22.3.0"
-  resolved "https://registry.yarnpkg.com/electron-builder-squirrel-windows/-/electron-builder-squirrel-windows-22.3.0.tgz#3aef30cb9fcdcfd4e4658b4a26fe0f648b13a715"
-  integrity sha512-CppEAIbTLhv/CerdwMlNX+oNDThXxqexNr6+vX9J/E2D51octRtArvH4/v/nacLjMxznuolX4JH68+zaaGpw2A==
+electron-builder-squirrel-windows@^22.3.3:
+  version "22.3.3"
+  resolved "https://registry.yarnpkg.com/electron-builder-squirrel-windows/-/electron-builder-squirrel-windows-22.3.3.tgz#0a417af35c83b067096bd3217b6b7bd75c6c48a9"
+  integrity sha512-2GKEriraCWeWt+RuQZeA5Q2gKpgM6HHeV/uwbeJ9gkxi0Ne/nYTsImfjW6j7lQPdYNJ1oZQjnwdx2o2ng4k+kQ==
   dependencies:
     archiver "^3.1.1"
     bluebird-lst "^1.0.9"
-    builder-util "~22.3.0"
+    builder-util "~22.3.3"
     fs-extra "^8.1.0"
     sanitize-filename "^1.6.3"
   optionalDependencies:
