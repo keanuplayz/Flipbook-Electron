@@ -35,7 +35,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "electron": "9.0.3",
+    "electron": "9.0.4",
     "electron-builder": "^22.7.0",
     "electron-builder-squirrel-windows": "^22.7.0"
   }
