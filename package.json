@@ -37,6 +37,6 @@
   "devDependencies": {
     "electron": "11.0.1",
     "electron-builder": "^22.9.1",
-    "electron-builder-squirrel-windows": "^22.9.1"
+    "electron-builder-squirrel-windows": "^22.10.4"
   }
 }
